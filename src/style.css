@@ -1,0 +1,16 @@
+@import './base.css';
+@layer base {
+  :root {
+    --bg: #f2f4ed;
+    --surface: #fffefa;
+    --ink: #40513d;
+    --muted: #8a9680;
+    --accent: #718d5d;
+    --on-accent: white;
+    --line: #dfe5d6;
+    --input: #fafcf6;
+    --hover: #edf2e5;
+    --canvas: #f3f6ec;
+    --danger: #ad6660;
+  }
+}

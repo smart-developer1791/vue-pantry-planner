@@ -1,0 +1,122 @@
+{
+  "format": "PP/1",
+  "title": "A good little week",
+  "ingredients": [
+    {
+      "id": "rice",
+      "name": "Rice",
+      "unit": "g",
+      "quantity": 240
+    },
+    {
+      "id": "beans",
+      "name": "White beans",
+      "unit": "g",
+      "quantity": 300
+    },
+    {
+      "id": "tomato",
+      "name": "Tomatoes",
+      "unit": "piece",
+      "quantity": 3
+    },
+    {
+      "id": "pasta",
+      "name": "Pasta",
+      "unit": "g",
+      "quantity": 90
+    },
+    {
+      "id": "milk",
+      "name": "Oat milk",
+      "unit": "ml",
+      "quantity": 200
+    },
+    {
+      "id": "lemon",
+      "name": "Lemons",
+      "unit": "piece",
+      "quantity": 1
+    }
+  ],
+  "recipes": [
+    {
+      "id": "garden-bowl",
+      "name": "The garden bowl",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredient": "rice",
+          "quantity": 180
+        },
+        {
+          "ingredient": "beans",
+          "quantity": 240
+        },
+        {
+          "ingredient": "tomato",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "quiet-pasta",
+      "name": "A quiet little pasta",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredient": "pasta",
+          "quantity": 200
+        },
+        {
+          "ingredient": "tomato",
+          "quantity": 2
+        },
+        {
+          "ingredient": "milk",
+          "quantity": 100
+        }
+      ]
+    },
+    {
+      "id": "lemon-beans",
+      "name": "Sunny lemon beans",
+      "baseServings": 2,
+      "ingredients": [
+        {
+          "ingredient": "beans",
+          "quantity": 250
+        },
+        {
+          "ingredient": "lemon",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "plan": [
+    {
+      "id": "meal-one",
+      "recipe": "garden-bowl",
+      "servings": 2,
+      "day": 0
+    },
+    {
+      "id": "meal-two",
+      "recipe": "quiet-pasta",
+      "servings": 2,
+      "day": 2
+    },
+    {
+      "id": "meal-three",
+      "recipe": "lemon-beans",
+      "servings": 2,
+      "day": 4
+    }
+  ],
+  "provenance": {
+    "project": "vue-pantry-planner",
+    "author": "CodeSculptor",
+    "marker": "PP-DF8C298B"
+  }
+}
